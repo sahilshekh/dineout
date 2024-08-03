@@ -1,0 +1,241 @@
+
+.overview{
+/* margin-left: 7%; */
+width: 50%;
+height: 100%;
+/* background-color:rgb(244,244,244); */
+;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 12%;
+    background-color:white ;
+}
+.first > div:hover{
+    color:rgb(0,194,79) ;
+    cursor:pointer;
+    height: 100%;
+    margin-bottom: 5px soild rgb(0,194,79);
+}
+.second{
+    margin-top: 3%;
+    width: 100%;
+    height: 14%;
+    display: flex;
+    background-color:white;
+}
+.second > div > img{
+    width: 190px;
+    height: 100%;
+    margin-right: 10px;
+}
+.second > div > p{
+    margin-top: 8px;
+    line-height: 160%;
+}
+
+.othree{
+    width: 100%;
+    background-color:white;
+    height: 35%;
+    padding-bottom: 25px;
+}
+.othree > div{
+    width: 100%;
+    
+    margin: auto;
+}
+.othree > div > h3{
+    margin-left: 25px;
+    padding-top:5px;
+}
+.member{
+    width: 90% !important;
+    display: flex;
+    background-color:rgb(93,17,64) !important;
+    border-radius:20px;
+    padding:0px 20px;
+    color: white;
+    justify-content: space-between;
+}
+.onlymember{
+    margin-top: 0px;
+}
+.onlymember > img{
+    width: 115px;
+    height: 16px;
+}
+.buymem{
+    padding: 8px 20px;
+    font-weight: bold;
+    color:rgb(93,17,64);
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 22%;
+    border: none;
+}
+.four{
+    background-color:white;
+}
+.four > h3{
+    margin-left: 20px;
+    padding-top: 5px;
+}
+.four-one{
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+}
+.four-one > div > img{
+    width: 133px;
+    height: 125px;
+    border-radius: 5px 5px 0px 0px;
+}
+.four-one > div > p{
+    margin-top: 0px;
+    background-color:rgb(32,32,32);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 3px;
+    text-align: center;
+}
+
+.ofive{
+    width: 100%;
+    background-color:white;
+}
+.ofive > h3{
+    margin-left: 20px;
+    padding-top: 5px;
+}
+.five-one{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.five-one > a {
+    text-decoration: none;
+    color: gray;
+}
+.advantages{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 8px;
+}
+.advantages >div:nth-child(1)> img{
+   width:38px;
+   height: 38px;
+   margin-left: 15px;
+}
+.advantages >div:nth-child(2)>p{
+    margin-top: 0px;
+    line-height: 110%;
+    font-size: 14px;
+}
+.type{
+   color:rgb(199,168,99);
+   font-weight: bold;
+}
+
+.fuckindiv{
+    display: flex;
+    justify-content: space-around;
+}
+/* .facilities{
+    margin-left: 15px;
+} */
+.facilities > img{
+    width: 22px;
+    height: 18px;
+}
+.facilities > span{
+    margin-left: 9px;
+    font-size: 15px;
+}
+
+.six{
+    background-color:white;
+    height: 100%;
+}
+.six > h3{
+    padding-top: 5px;
+    margin-left: 15px;
+}
+.six > p{
+    margin-left: 15px;
+}
+
+.seven{
+    margin-top: 15px;
+    background-color:white;
+}
+.seven > div{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.seven > div > button{
+    height: 30px;
+    padding: 0px 20px;
+    border-radius:20px;
+    border: none;
+    background-color: rgb(53,149,255);
+    color: white;
+    margin-top: 3%;
+}
+
+.eight{
+    margin-top: 15px;
+    height: 100%;
+    background-color:white;
+    
+}
+.eight > img{
+    width: 100%;
+}
+.nine{
+    margin-top: 15px;
+    background-color:white;
+}
+.nine > h3{
+    margin-left: 15px;
+    padding-top: 5px;
+}
+.nine-one{
+    display: flex;
+    gap: 150px;
+}
+.help{
+    display: flex;
+}
+.help > img{
+    width:40px;
+    height: 40px;
+}
+.help > span > p{
+    margin-top: 0px;
+    line-height: 80%;
+}
+.maylike{
+    display: flex;
+    justify-content: space-around;
+}
+.random-img{
+    margin-bottom: 0px;
+}
+.random-img > img{
+    width: 190px;
+    height: 150px;
+}
+.random-details{
+    margin-top: 0px;
+}
+.random-details > h3{
+    font-size: 15px;
+}
+.random-details > p{
+    text-align: center;
+    font-size: 14px;
+}

@@ -1,0 +1,82 @@
+.Offer_deal1{
+    box-shadow: 3px 3px 10px 6px rgb(0,0,0,0.06);
+    background-color: rgb(255, 251, 251);
+    height: 500px;
+    float: right;
+    width: 28%;
+    overflow-y: scroll;
+    margin-top: -50%;
+     margin-right: 10%;    
+}
+.Select_offer1{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: antiquewhite;
+    height: 50px;
+    width: 100%;
+}
+.my_calender1{
+    padding: 20px;
+}
+.Detail{
+    padding: 20px;
+}
+.detail_lable{
+    margin-top: 20px;
+}
+.detail_name {
+    background-color:rgb(231, 224, 224);
+    height: 40px;
+    width: 95%;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.detail_mobile{
+    background-color:rgb(231, 224, 224);;
+    height: 40px;
+    width: 95%;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.Counter1{
+    display: flex;
+    width: 95%;
+    height: 50px;
+    background-color:rgb(231, 224, 224);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    /* background-color: ;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px; */
+    text-align: center;
+}
+.counter_display{
+    /* padding: 10px; */
+    width: 50px;
+    height: 50px;
+}
+.Counter1 .incbtn{
+    border: none;
+    border: 3px solid #3595ff;
+    height:30px;
+    width:30px;
+    border-radius: 20px;
+    margin-left: 10px;
+    color: #3595ff;
+    /* margin: 10px; */
+}
+.confirm_btn{
+    height: 50px;
+    width: 95%;
+    color: aliceblue;
+    background-color: #fc5d51;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}

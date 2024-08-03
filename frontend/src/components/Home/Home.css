@@ -1,0 +1,144 @@
+body {
+  background-color: white;
+}
+.homepage-container {
+  width: 85%;
+  margin: auto;
+}
+.bestoffer h2 {
+  font-size: 24px;
+  margin-top: 46px;
+}
+.best-img {
+  width: 70%;
+}
+.best-img img {
+  width: 20%;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 3px 4px 8px 0 rgb(0 0 0 / 25%);
+  margin-right: 26px;
+}
+.nearyou {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.featured-restaurant {
+  margin-bottom: 70px;
+}
+.near-res {
+  height: 180px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.near-res:hover {
+  cursor: pointer;
+}
+.near-res-container {
+  width: 90%;
+  border-radius: 5px;
+  transition: 0.3s ease-in;
+}
+.near-res-container:hover {
+  box-shadow: 10px 10px 6px -9px grey;
+}
+.near-img {
+  overflow: hidden;
+  height: 62%;
+  border-bottom: 2px solid orangered;
+  border-radius: 5px;
+}
+.near-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  transition: 0.8s;
+}
+
+.near-res-container img:hover {
+  transform: scale(1.1);
+}
+.near-res-details {
+  padding: 4px;
+}
+.near-res-details h3 {
+  margin: 0;
+  font-size: 14px;
+}
+.near-res-details p {
+  margin: 0;
+  color: #666;
+  height: 20px;
+  width: 92%;
+  overflow: hidden;
+  font-size: 12px;
+  padding-top: 4px;
+}
+
+.offer-restaurant {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: -50px;
+}
+.label img {
+  width: 100%;
+  height: 105%;
+  object-fit: contain;
+  margin-top: -63px;
+}
+
+.offer-res {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 100px;
+  height: 80%;
+}
+.offer-res:hover {
+  cursor: pointer;
+}
+.offer-res-container {
+  width: 90%;
+  margin: 14px;
+  border-radius: 5px;
+  transition: 0.3s ease-in;
+  border: 1px solid darkgrey;
+}
+.offer-res-container:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.offer-img {
+  overflow: hidden;
+  height: 64%;
+  border-bottom: 2px solid orangered;
+  border-radius: 5px;
+}
+.offer-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  transition: 0.8s;
+}
+
+.offer-res-container img:hover {
+  transform: scale(1.1);
+}
+.offer-res-details {
+  padding: 4px;
+  margin-top: 10px;
+}
+.offer-res-details h3 {
+  margin: 0;
+  font-size: 14px;
+}
+.offer-res-details p {
+  margin: 0;
+  color: #666;
+  height: 20px;
+  width: 92%;
+  overflow: hidden;
+  font-size: 12px;
+  padding-top: 4px;
+}

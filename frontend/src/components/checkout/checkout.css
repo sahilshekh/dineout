@@ -1,0 +1,272 @@
+body{
+    margin: 0px;
+}
+.main_nav{
+    
+    position:fixed;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.navbar1{
+    display: flex;
+    height: 10vh;
+    background:white;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+.navbar2{
+    height: 8vh;
+    background:white;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 10px 6px rgb(0,0,0,0.06);
+    padding: 10px;
+}
+.blank{
+    height: 20vh;
+    
+}
+.navbar1 img{
+    margin-right: 2rem;
+}
+.serach_option_bar{
+    width: 500px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+}
+.search_button{
+    background-color:#fc5d51;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+.log_button{
+    background-color:#fc6055;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+.navbar2 .nav-items{
+    display: flex;
+    list-style-type:none;
+    text-align: center;
+    justify-content: center;
+    /* width: 70vw; */
+    margin-right: 2rem;
+}
+.navbar2 .nav-item{
+    display: flex;
+    align-items: center;
+}
+.navbar2 .nav-item a{
+    text-decoration: none;
+    margin-right: 2rem;
+    color: black;
+}
+
+/* Dropdown option */
+
+.dropdown{
+    width:200px;
+    /* margin: 100px auto; */
+    position: relative;
+    user-select: none;
+    height: 30px;
+    
+}
+.dropdown .dropdown_button{
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    color: gray;
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    /* justify-content: space-between; */
+}
+.dropdown .dropdown-content{
+    position: absolute;
+    top:110%;
+    left: 0;
+    padding: 10px;
+    background:black;
+    border: 1px solid black;
+    font-weight: bold;
+    color: beige;
+    width: 95%;
+}
+.dropdown .dropdown-content .dropdown-item{
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+/* Search */
+.Search_content{
+    position: absolute;
+    padding: 20px;
+    color: black;
+    background-color: rgb(255, 253, 253);
+    box-shadow: 3px 3px 10px 6px rgb(0,0,0,0.06);
+    width: 37%;
+    height: 450px;
+    margin-top: 30px;
+    overflow-y: scroll;
+    display: none;
+    /* display: block; */
+    cursor: pointer;
+}
+
+
+
+.Offer_deal{
+    box-shadow: 3px 3px 10px 6px rgb(0,0,0,0.06);
+    background-color: rgb(167, 160, 160);
+    height: 500px;
+    margin-left: 100px;
+    width: 28%;
+    overflow-y: scroll;
+    
+}
+.Select_offer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: antiquewhite;
+    height: 50px;
+    width: 100%;
+}
+.my_calender{
+    padding: 20px;
+}
+.Detail{
+    padding: 20px;
+}
+.detail_lable{
+    margin-top: 20px;
+}
+.detail_name {
+    height: 40px;
+    width: 95%;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.detail_mobile{
+    height: 40px;
+    width: 95%;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.Counter{
+    display: flex;
+    width: 95%;
+    height: 50px;
+    background-color: aqua;
+    padding: 20px;
+    /* background-color: aqua;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px; */
+}
+.counter_display{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+.Counter .incbtn{
+    border: none;
+    border-radius: 10px;
+}
+.confirm_btn{
+    height: 50px;
+    width: 95%;
+    color: aliceblue;
+    background-color: #fc5d51;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.checki{
+    margin: auto;
+    margin-top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 70%;
+    height: 600px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.cheki1 > h1{
+    padding-top: 3px;
+}
+hr{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cheki1 > p{
+    font-size: 20px;
+    color: gray;
+}
+.cheki1_guest > h1{
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+    font-weight: normal;
+}
+.cheki1_guest > h2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.cheki1_guest > h2 > span:nth-child(1){
+    color: gray;
+    font-weight: normal;
+}
+.cheki1_guest > h2 > span:nth-child(2){
+    font-weight: 500;
+}
+.cheki1_summery > h1{
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+    font-weight: normal;
+}
+.cheki1_summery > h2,h3{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.cheki1_summery > h2 > span:nth-child(1){
+    color: gray;
+    font-weight: normal;
+}
+.cheki1_summery > h2 > span:nth-child(2){
+    font-weight: 500;
+}
+.cheki1_summery > h3 > span:nth-child(1){
+    color: gray;
+    font-weight: normal;
+}
+.cheki1_summery > h3 > span:nth-child(2){
+    font-weight: 500;
+}
+.hr{
+    height: 5px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    border: none;
+    background-color: rgb(197, 194, 194);
+}

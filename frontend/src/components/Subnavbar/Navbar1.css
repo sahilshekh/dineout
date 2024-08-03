@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+}
+.main_nav{
+    
+    position:fixed;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.navbar1{
+    display: flex;
+    height: 10vh;
+    background:white;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+.nav213:hover{
+ color: #fc5d51;
+}
+.navbar21{
+    height: 5vh;
+    background:white;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 6px -6px rgb(0,0,0,0.06);
+    padding: 8px;
+    font-size: 15px;
+    border-top: 1px solid gray;
+}
+.blank{
+    height: 20vh;
+    
+}
+.navbar1 img{
+    margin-right: 2rem;
+}
+.serach_option_bar{
+    width: 500px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+}
+.search_button{
+    background-color:#fc5d51;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+.log_button{
+    background-color:#fc6055;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+.navbar21 .nav-items{
+    display: flex;
+    list-style-type:none;
+    text-align: center;
+    justify-content: center;
+    /* width: 70vw; */
+    margin-right: 2rem;
+}
+.navbar21 .nav-item{
+    display: flex;
+    align-items: center;
+}
+.navbar21 .nav-item a{
+    text-decoration: none;
+    margin-right: 2rem;
+    color: black;
+}
+
+/* Dropdown option */
+
+.dropdown{
+    width:200px;
+    /* margin: 100px auto; */
+    position: relative;
+    user-select: none;
+    height: 30px;
+    
+}
+.dropdown .dropdown_button{
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    color: gray;
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    /* justify-content: space-between; */
+}
+.dropdown .dropdown-content{
+    position: absolute;
+    top:110%;
+    left: 0;
+    padding: 10px;
+    background:black;
+    border: 1px solid black;
+    font-weight: bold;
+    color: beige;
+    width: 95%;
+}
+.dropdown .dropdown-content .dropdown-item{
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+/* Search */
+.Search_content{
+    position: absolute;
+    padding: 20px;
+    color: black;
+    background-color: rgb(255, 253, 253);
+    box-shadow: 3px 3px 10px 6px rgb(0,0,0,0.06);
+    width: 37%;
+    height: 450px;
+    margin-top: 30px;
+    overflow-y: scroll;
+    display: none;
+    /* display: block; */
+    cursor: pointer;
+}
+
+

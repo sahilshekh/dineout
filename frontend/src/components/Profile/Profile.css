@@ -1,0 +1,72 @@
+.profile-container {
+  height: 110vh;
+  background-color: whitesmoke;
+}
+.mainprofile {
+  background-color: white;
+  margin-top: 3px;
+}
+.smallcont {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding-top: 22px;
+}
+.profile-img img {
+  width: 90%;
+  margin-bottom: 18px;
+}
+.profiledetail {
+  margin-left: -45%;
+  color: gray;
+}
+.profiledetail p {
+  margin: 0;
+  padding-top: 5px;
+  display: flex;
+}
+.create {
+  color: orangered;
+  margin-left: 5px;
+}
+.name {
+  font-size: 24px;
+}
+.emailicon {
+  color: grey;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
+.profiledata-container {
+  display: flex;
+  justify-content: space-between;
+}
+.saving {
+  margin: 20px;
+}
+
+.profilemain {
+  display: flex;
+  margin-left: 130px;
+  margin-top: 60px;
+  background-color: white;
+  height: 160px;
+  padding: 35px;
+}
+.profimg img {
+  width: 53%;
+}
+.prodetail {
+  margin-top: -24px;
+  margin-left: -150px;
+}
+.prodetail p {
+  margin: 0;
+  padding: 3px;
+  margin-top: -7px;
+}
+.prodetail h3 {
+  margin-left: -20px;
+}
