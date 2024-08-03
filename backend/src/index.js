@@ -9,7 +9,7 @@ const productController = require("./controller/productControler");
 const starController = require("./controller/starController");
 const northIndiaController = require("./controller/northindiacontroller");
 const chineseController = require("./controller/chineseController");
-const fastFoodController = require("./controller/fastFoodController");
+const fastFoodController = require("./controller/fastfoodController");
 const { register, login } = require("./controller/userController");
 
 app.use(cors());
@@ -20,7 +20,7 @@ app.use("/chinese", chineseController);
 app.use("/fastfood", fastFoodController);
 
 const dineoutController = require("./controller/dineoutController");
-const pureVegController = require("./controller/pureVegController");
+const pureVegController = require("./controller/PureVegController");
 const buffetController = require("./controller/buffetController");
 
 app.use("/products", productController);
