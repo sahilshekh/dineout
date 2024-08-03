@@ -12,7 +12,7 @@ function Buffet() {
   const [buffet,setBuffet]= useState([]);
 
   useEffect(() => {
-    axios.get("https://dineout-project.herokuapp.com/buffet").then((res) => {
+    axios.get("https://dineout-xv4h.vercel.app/buffet").then((res) => {
       console.log(res.data);
       setBuffet([...res.data]);
     });

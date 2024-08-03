@@ -12,13 +12,13 @@ const Overview = () => {
 
 // <<<<<<< HEAD
     // useEffect(() => {
-    //     fetch("https://dineout-project.herokuapp.com/products")
+    //     fetch("https://dineout-xv4h.vercel.app/products")
     //     .then((res) => res.json())
     //     .then((res)=> {
     //         setState([...res])
 // =======
 //     useEffect(() => {
-//         fetch("https://dineout-project.herokuapp.com/products")
+//         fetch("https://dineout-xv4h.vercel.app/products")
 //         .then((res) => res.json())
 //         .then((res)=> {
 //             setState([...res])
@@ -45,7 +45,7 @@ const Overview = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-      axios.get("https://dineout-project.herokuapp.com/products").then((res) => {
+      axios.get("https://dineout-xv4h.vercel.app/products").then((res) => {
         console.log(res.data);
         setProducts([...res.data]);
       });

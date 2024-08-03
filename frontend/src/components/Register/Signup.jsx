@@ -184,7 +184,7 @@ export const Signup = ({ closeSignup, closeLogin }) => {
 
   const handleRegister = () => {
     axios
-      .post("https://dineout-project.herokuapp.com/register", {
+      .post("https://dineout-xv4h.vercel.app/register", {
         name: name,
         phone: phone,
       })

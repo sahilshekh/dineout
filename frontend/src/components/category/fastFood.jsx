@@ -11,7 +11,7 @@ function Fast() {
     const [fastFood,setNorth]= useState([]);
 
   useEffect(() => {
-    axios.get("https://dineout-project.herokuapp.com/fastfood").then((res) => {
+    axios.get("https://dineout-xv4h.vercel.app/fastfood").then((res) => {
       console.log(res.data);
       setNorth([...res.data]);
     });

@@ -179,7 +179,7 @@ export const Login = ({ closeModel }) => {
 
   const handleLogin = () => {
     axios
-      .post("https://dineout-project.herokuapp.com/login", {
+      .post("https://dineout-xv4h.vercel.app/login", {
         phone: phone,
       })
       .then((response) => {

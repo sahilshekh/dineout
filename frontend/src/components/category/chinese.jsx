@@ -11,7 +11,7 @@ function Chinese() {
     const [chinese,setNorth]= useState([]);
 
   useEffect(() => {
-    axios.get("https://dineout-project.herokuapp.com/chinese").then((res) => {
+    axios.get("https://dineout-xv4h.vercel.app/chinese").then((res) => {
       console.log(res.data);
       setNorth([...res.data]);
     });
